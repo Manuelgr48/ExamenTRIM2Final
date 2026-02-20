@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="276.0" prefWidth="434.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" prefHeight="86.0" prefWidth="434.0" text="Registrate" textAlignment="CENTER" />
+      <TextField prefHeight="23.0" prefWidth="434.0" promptText="Nombre de Usuario" />
+      <PasswordField promptText="Contraseña" />
+      <Button mnemonicParsing="false" text="Button" />
+      <Button contentDisplay="CENTER" mnemonicParsing="false" text="Button" textAlignment="CENTER">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </Button>
+   </children>
+</VBox>
